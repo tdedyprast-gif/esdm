@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESDM - STKIP PGRI Pacitan</title>
-    <!-- Bootstrap CSS -->
+
+    <!-- Bootstrap 5 CSS -->
     <link href="https://jsdelivr.net" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://googleapis.com" rel="stylesheet">
+
+    <!-- Google Fonts Poppins (Link Aktif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
     <style>
         :root {
             --sky-blue: #87CEEB;
@@ -30,16 +35,6 @@
             color: white;
             padding: 100px 0;
             text-align: center;
-        }
-
-        .btn-primary {
-            background-color: #007bb5;
-            border: none;
-            padding: 10px 30px;
-        }
-
-        .btn-primary:hover {
-            background-color: #005f8a;
         }
 
         .feature-box {
@@ -97,19 +92,19 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card h-100 feature-box">
-                        <h3>📊 Data Terpadu</h3>
+                        <h3 class="mb-3">📊 Data Terpadu</h3>
                         <p>Akses informasi akademik mahasiswa dalam satu platform yang terintegrasi.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card h-100 feature-box">
-                        <h3>⚡ Cepat & Akurat</h3>
+                        <h3 class="mb-3">⚡ Cepat & Akurat</h3>
                         <p>Pemrosesan data yang efisien untuk mendukung pengambilan keputusan kampus.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card h-100 feature-box">
-                        <h3>🔒 Keamanan Data</h3>
+                        <h3 class="mb-3">🔒 Keamanan Data</h3>
                         <p>Perlindungan data sensitif mahasiswa dengan standar keamanan tinggi.</p>
                     </div>
                 </div>
@@ -120,27 +115,36 @@
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">
-            <p class="mb-0">&copy; 2024 STKIP PGRI Pacitan - Paradise of Java. All Rights Reserved.</p>
+            <p class="mb-0">&copy; 2026 STKIP PGRI Pacitan - Paradise of Java. All Rights Reserved.</p>
         </div>
     </footer>
 
-    <!-- Scripts -->
+    <!-- Scripts: JQUERY DULU BARU BOOTSTRAP JS -->
+    <!-- 1. Panggil jQuery Versi Lengkap (Bukan Slim) -->
     <script src="https://jquery.com"></script>
+
+    <!-- 2. Panggil Bootstrap Bundle JS (Sudah termasuk Popper) -->
     <script src="https://jsdelivr.net"></script>
+
+    <!-- 3. Skrip Custom Anda -->
     <script>
         $(document).ready(function() {
-            // Smooth scrolling untuk navigasi
-            $('a.nav-link').on('click', function(event) {
+            // Skrip smooth scroll jQuery
+            $('.navbar-nav a.nav-link').on('click', function(event) {
                 if (this.hash !== "") {
                     event.preventDefault();
                     var hash = this.hash;
                     $('html, body').animate({
                         scrollTop: $(hash).offset().top - 70
                     }, 800);
+
+                    // Otomatis menutup menu mobile setelah diklik
+                    $('.navbar-collapse').collapse('hide');
                 }
             });
         });
     </script>
+
 </body>
 
 </html>
