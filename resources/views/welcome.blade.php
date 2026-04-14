@@ -70,7 +70,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link" href="#fitur">Fitur</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-light text-primary ms-lg-3 px-4" href="#">Login</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-light text-primary ms-lg-3 px-4" href="hrd/login">Login</a></li>
                 </ul>
             </div>
         </div>
