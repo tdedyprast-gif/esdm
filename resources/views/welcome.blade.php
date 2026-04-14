@@ -79,8 +79,8 @@
     <!-- Hero Section -->
     <header class="hero-section" id="beranda">
         <div class="container">
-            <h1 class="display-4 fw-bold">Elektronik Sistem Data Mahasiswa</h1>
-            <p class="lead">Kelola data akademik dan administrasi mahasiswa STKIP PGRI Pacitan dengan lebih mudah dan cepat.</p>
+            <h1 class="display-4 fw-bold">Aplikasi Sumber Daya</h1>
+            <p class="lead">Kelola data sumber daya dan administrasi pegawai STKIP PGRI Pacitan dengan lebih mudah dan cepat.</p>
             <a href="#fitur" class="btn btn-light btn-lg text-primary mt-3">Pelajari Selengkapnya</a>
         </div>
     </header>
