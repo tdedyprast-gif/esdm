@@ -62,7 +62,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">ESDM STKIP PGRI Pacitan</a>
+            <a class="navbar-brand fw-bold" href="#">Digital HRD STKIP PGRI Pacitan</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -79,8 +79,8 @@
     <!-- Hero Section -->
     <header class="hero-section" id="beranda">
         <div class="container">
-            <h1 class="display-4 fw-bold">Aplikasi Sumber Daya</h1>
-            <p class="lead">Kelola data sumber daya dan administrasi pegawai STKIP PGRI Pacitan dengan lebih mudah dan cepat.</p>
+            <h1 class="display-4 fw-bold">Aplikasi Digital Human Resaourcea</h1>
+            <p class="lead">Kelola data sumber daya dan administrasi digital pegawai STKIP PGRI Pacitan dengan lebih mudah dan cepat.</p>
             <a href="#fitur" class="btn btn-light btn-lg text-primary mt-3">Pelajari Selengkapnya</a>
         </div>
     </header>
@@ -93,7 +93,7 @@
                 <div class="col-md-4">
                     <div class="card h-100 feature-box">
                         <h3 class="mb-3">📊 Data Terpadu</h3>
-                        <p>Akses informasi akademik mahasiswa dalam satu platform yang terintegrasi.</p>
+                        <p>Akses informasi HRD dalam satu platform yang terintegrasi.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -105,7 +105,7 @@
                 <div class="col-md-4">
                     <div class="card h-100 feature-box">
                         <h3 class="mb-3">🔒 Keamanan Data</h3>
-                        <p>Perlindungan data sensitif mahasiswa dengan standar keamanan tinggi.</p>
+                        <p>Perlindungan data sensitif pegawai dengan standar keamanan tinggi.</p>
                     </div>
                 </div>
             </div>
