@@ -115,7 +115,7 @@
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">
-            <p class="mb-0">&copy; 2026 STKIP PGRI Pacitan - Kampus PENDIDIK Pembina Pramuka. All Rights Reserved.</p>
+            <p class="mb-0">&copy; 2026 STKIP PGRI Pacitan - Kampus PENDIDIK Pembina Pramuka. (c) All Rights Reserved.</p>
         </div>
     </footer>
 
