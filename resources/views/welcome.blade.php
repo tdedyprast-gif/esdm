@@ -79,7 +79,7 @@
     <!-- Hero Section -->
     <header class="hero-section" id="beranda">
         <div class="container">
-            <h1 class="display-4 fw-bold">Aplikasi Digital Human Resaourcea</h1>
+            <h1 class="display-4 fw-bold">Aplikasi Digital Human Resources</h1>
             <p class="lead">Kelola data sumber daya dan administrasi digital pegawai STKIP PGRI Pacitan dengan lebih mudah dan cepat.</p>
             <a href="#fitur" class="btn btn-light btn-lg text-primary mt-3">Pelajari Selengkapnya</a>
         </div>
