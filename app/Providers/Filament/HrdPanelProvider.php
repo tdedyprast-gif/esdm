@@ -18,7 +18,7 @@ use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use \Illuminate\Foundation\Http\Middleware\VerifyCsrfToken::class,
+use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 
 class HrdPanelProvider extends PanelProvider
 {
@@ -52,6 +52,8 @@ class HrdPanelProvider extends PanelProvider
                 SubstituteBindings::class,
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
+                VerifyCsrfToken::class
+
             ])
             ->authMiddleware([
                 Authenticate::class,
